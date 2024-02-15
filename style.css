@@ -42,3 +42,75 @@
         }
     }
 }
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+
+    > .top-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-weight: bold;
+    }
+
+    > .top-div, .bottom-div {
+        flex: 1;
+        background-color: rgb(245, 245, 245);
+        padding: 50px;
+        padding-right: 200px;
+
+        > button {
+            background-color: #596C48;
+            padding: 10px 30px;
+            border-radius: 10px;
+            border: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        > p > a:link, a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #596C48;
+        }
+    }
+
+    > .form-div {
+        display: flex;
+        flex: 1;
+        box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.83);
+        z-index: 1;
+        align-items: center;
+
+        > form {
+            padding-left: 50px;
+
+            > legend {
+                font-weight: bold;
+            }
+
+            > ul {
+                list-style: none;
+                padding: 0;
+
+                > li {
+                    display: flex;
+                    gap: 75px;
+
+                    > .inputs 
+
+
+                        > label {
+                            font-size: 0.7rem;
+                        }
+                    
+                        > label, input {
+                            display: block;
+                    }
+                }
+            }
+        }
+    }
+}

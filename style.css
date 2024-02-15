@@ -1,0 +1,44 @@
+@import url(https://db.onlinewebfonts.com/c/7d460b18433753a097e5bc2bad7c8dd9?family=Norse+Bold);
+
+.container {
+    display: flex;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left {
+    background-image: url(./image/halie-west-25xggax4bSA-unsplash.jpg);
+    background-position: center;
+    background-size: auto 100%;
+    flex: 1;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    > .black {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.47);
+        color: white;
+        font-family: Norse Bold, sans-serif;
+        font-size: 5rem;
+        height: 150px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 200px;
+
+        > img {
+            height: 90%;
+        }
+    }
+
+    > .credits {
+        color: white;
+        font-size: 0.8rem;
+        text-align: center;
+
+        > a {
+            color: white;
+        }
+    }
+}
